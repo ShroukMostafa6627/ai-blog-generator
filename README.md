@@ -1,2 +1,28 @@
-# ai-blog-generator
-A full-stack AI-powered blog generation web application built using React.js, Node.js, Express.js, and Cohere AI API. The application allows users to generate blog posts by entering a topic, selecting the writing tone, and choosing the desired blog length.
+# AI-Powered Blog Generator
+
+## Run the project
+
+### Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Backend
+Open another terminal:
+```bash
+cd server
+npm install
+npm start
+```
+
+Open: http://localhost:5173
+
+## Optional real AI API
+Create `server/.env` and add:
+```env
+COHERE_API_KEY=your_key_here
+```
+
+Without the key, the project still works using demo generated text.
